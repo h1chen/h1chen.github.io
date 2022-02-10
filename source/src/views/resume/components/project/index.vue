@@ -7,7 +7,9 @@
 ***************************************************************************/
 -->
 <template>
-  <div>项目经验</div>
+  <div class="project">
+    <h3 class="project__title">部分项目经验</h3>
+  </div>
 </template>
 
 <script>
@@ -24,4 +26,21 @@ export default {
   methods: {}
 };
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.project{
+  &__title{
+    display: flex;
+    align-items: center;
+    
+    &:before{
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 25px;
+      background: #000;
+      transform: skewX(-20deg);
+      margin-right: 4px;
+    }
+  }
+}
+</style>

@@ -7,13 +7,15 @@
 ***************************************************************************/
 -->
 <template>
-  <Base></Base>
+  <div class="content">
+    <Base></Base>
 
-  <Skill></Skill>
+    <Skill></Skill>
 
-  <Project></Project>
-  
-  <Experience></Experience>
+    <Project></Project>
+    
+    <Experience></Experience>
+  </div>
 </template>
 
 <script>
@@ -39,4 +41,11 @@ export default {
   methods: {}
 };
 </script>
-<style scoped lang="scss"></style>
+
+<style scoped lang="scss">
+.content{
+  width: 800px;
+  margin:0 auto;
+  
+}
+</style>

@@ -7,7 +7,9 @@
 ***************************************************************************/
 -->
 <template>
-  <div>工作经历</div>
+  <div class="experience">
+    <h3 class="experience__title">工作经历</h3>
+  </div>
 </template>
 
 <script>
@@ -24,4 +26,21 @@ export default {
   methods: {}
 };
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.experience{
+    &__title{
+    display: flex;
+    align-items: center;
+    
+    &:before{
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 25px;
+      background: #000;
+      transform: skewX(-20deg);
+      margin-right: 4px;
+    }
+  }
+}
+</style>
