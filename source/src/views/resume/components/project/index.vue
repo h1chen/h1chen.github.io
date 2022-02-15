@@ -28,6 +28,7 @@ export default {
 </script>
 <style scoped lang="scss">
 .project{
+  border-bottom: 1px solid #000;
   &__title{
     display: flex;
     align-items: center;

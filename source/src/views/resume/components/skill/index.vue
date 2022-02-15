@@ -40,6 +40,7 @@ export default {
 </script>
 <style scoped lang="scss">
 .skill{
+  border-bottom: 1px solid #000;
   &__title{
     display: flex;
     align-items: center;
