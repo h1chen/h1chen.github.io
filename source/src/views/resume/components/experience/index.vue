@@ -90,6 +90,7 @@ export default {
   &__content{
     padding: 0 20px;
     line-height: 26px;
+    margin-top: -5px;
     margin-bottom: 20px;
     &-label{
       font-weight: 550;

@@ -25,10 +25,15 @@ export default {
   data() {
     return {
       skillList:[
-        "熟练使用Vue.js框架开发项目，熟悉Vue.js全家桶；",
-        "熟练使用Element-UI等前端框架，具有开发前端组件库经验；",
-        "懂得使用Electron构建桌面应用程序；",
-        "懂得使用Tailwind CSS框架，了解Scss，Stylus等CSS预处理器；"
+        "熟练 Vue.js 前端开发框架，熟练使用 Vue.js 全家桶；",
+        "熟练 Element-UI 等前端框架，具有开发前端组件库经验；",
+        "熟悉 Electron 构建桌面应用程序；",
+        "熟悉 Tailwind CSS 框架，以及 Scss，Stylus 等 CSS 预处理器；",
+        "熟悉前端性能优化方法，熟悉 Http 协议，熟悉各种 Web 标准规范；",
+        "熟悉 ESLint 等代码检查工具的配置及使用，有良好的代码习惯；",
+        "了解小程序开发框架，具有小程序开发经验；",
+        "了解 webpack 构建工具；",
+        "了解 Node.js 开发语言；"
       ]
     };
   },
