@@ -106,7 +106,7 @@ export default {
   }
 
   &--pdf{
-    padding: 20px;
+    padding: 5px 20px 15px;
   }
   
 }
