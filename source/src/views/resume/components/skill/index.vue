@@ -31,7 +31,7 @@ export default {
         "熟悉 Electron 构建桌面应用程序；",
         "熟悉 Tailwind CSS 框架，以及 Scss，Stylus 等 CSS 预处理器；",
         "熟悉前端性能优化方法，熟悉 Http 协议，熟悉各种 Web 标准规范；",
-        "熟悉移动端与 Pc 端的适配工作",
+        "熟悉移动端与 PC 端的适配工作",
         "熟悉 ESLint 等代码检查工具的配置及使用，有良好的代码习惯；",
         "了解小程序开发框架，具有小程序开发经验；",
         "了解 webpack 构建工具；",
@@ -64,7 +64,7 @@ export default {
   }
 
   &__content{
-    padding-bottom: 4px;
+    
   }
 }
 
