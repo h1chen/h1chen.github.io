@@ -23,7 +23,7 @@
     </div>
 
     <div class="content__buttons">
-      <div class="content__buttons-btn" @click="clickToPDF">PDF</div>
+      <!-- <div class="content__buttons-btn" @click="clickToPDF">PDF</div> -->
       <div class="content__buttons-btn" @click="clickToPrint">打印</div>
     </div>
 

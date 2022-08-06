@@ -18,6 +18,8 @@
       <span>电子信息科学与技术</span>
     </p>
 
+    <p class="base__desc">“主要从事 B 端后台管理系统以及 Electron 客户端开发。个人技术栈主要以 Vue 为主，平时喜欢钻研 Vue 源码以及最新的前端技术，热衷于在 github 里学习热门的开源项目。”</p>
+
     <p class="base__work">
       <strong >工作年限：</strong>
       <span class="base__work-text">三年</span>
@@ -26,16 +28,23 @@
       <span class="base__work-text">前端开发</span>
     </p>
 
-    <p class="base__connect">
-      <strong>电话|微信：</strong>
-      <span class="base__connect-text">13622450494</span>
+    <div class="base__connect">
+  
+        <strong>微信：</strong>
+        <span class="base__connect-text">13622450494</span>
 
-      <strong>QQ：</strong>
-      <span class="base__connect-text">1029267498</span>
+        <strong>邮箱：</strong>
+        <span class="base__connect-text">1029267498@qq.com</span>
+       
+        <strong>github：</strong>
+        <a 
+           target="_blank"
+           class="base__connect-text" 
+           href="https://github.com/Rhodri-hc" 
+        >https://github.com/Rhodri-hc</a>
+    </div>
 
-      <strong>邮箱：</strong>
-      <span class="base__connect-text">1029267498@qq.com</span>
-    </p>
+    
   </div>
 </template>
 <script>
@@ -61,15 +70,27 @@ export default {
   }
 
   &__work{
+    margin-top: -5px;
     &-text{
       margin-right: 30px;
     }
   }
 
   &__connect{
+    margin-top: -10px;
     &-text{
-      margin-right: 20px;
+      margin-right: 50px;
+      text-decoration:none
     }
+    
   }
+
+  &__desc{
+    line-height: 26px;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+
 }
 </style>
