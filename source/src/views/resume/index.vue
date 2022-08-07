@@ -54,7 +54,8 @@ export default {
   data() {
     return {
       // 正在打印pdf
-      isPdf: true
+      isPdf: true,
+      isPrint: false 
     };
   },
   computed: {},
@@ -80,7 +81,11 @@ export default {
      * @date 2022年02月23日 20:29
      */
     clickToPrint(){
-      print(this.$refs.content)
+      this.isPrint = true;
+      this.$nextTick(() => {
+        print(this.$refs.content)
+        this.isPrint = false;
+      })
     }
   }
 };

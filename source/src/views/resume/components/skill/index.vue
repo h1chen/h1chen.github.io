@@ -26,14 +26,14 @@ export default {
   data() {
     return {
       skillList:[
-        "熟练使用 Vue.js 前端开发框架，并对 Vue2、Vue3 部分核心原理有深入学习经验及个人见解；",
-        "熟练使用 Vue 主流 UI 框架（Element-UI），并有深入学习经验，具有公司自研组件库开发经验；",
-        "熟悉使用 Node.js，对服务端框架 egg.js 编写 BFF 层有开发经验",
-        "熟悉 Electron 构建桌面应用程序；",
-        "熟悉小程序开发框架 ，具有小程序 mpvue 框架开发经验；",
-        "熟悉 Tailwind CSS 框架，以及 Scss，Stylus 等 CSS 预处理器；",
-        "熟悉前端性能优化方法，熟悉 http 协议，熟悉各种 Web 标准规范；",
-        "熟悉 ESLint 等代码检查工具的配置及使用，有良好的代码习惯；",
+        "熟练使用 Vue.js 前端开发框架，并对 Vue2、Vue3 部分核心原理有深入学习经验及个人见解",
+        "熟练使用 Vue 主流 UI 框架（Element-UI），并有深入学习经验，具有公司自研组件库开发经验",
+        "熟悉 Electron 构建桌面应用程序",
+        "熟悉小程序开发框架 ，具有小程序 mpvue 框架开发经验",
+        "熟悉 Tailwind CSS 框架，以及 Scss，Stylus 等 CSS 预处理器",
+        "熟悉前端性能优化方法，熟悉 http 协议，熟悉各种 Web 标准规范",
+        "熟悉 ESLint 等代码检查工具的配置及使用，有良好的代码习惯",
+        "了解使用 Node.js，对服务端框架 egg.js 编写 BFF 层有开发经验",
         "了解 webpack 构建工具",
       ]
     };
