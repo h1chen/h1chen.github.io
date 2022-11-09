@@ -28,7 +28,7 @@
 
       <div>
         <strong>工作年限</strong>：
-        <span>三年</span>
+        <span>四年</span>
       </div>
     </div>
 
@@ -78,6 +78,7 @@ export default {
     margin-top: -5px;
     &-text{
       margin-right: 54px;
+      // margin-right: 58px;
     }
   }
 
