@@ -1,2 +1,2 @@
-# Rhodri-hc.github.io
+# h1chen.github.io
 my resume
