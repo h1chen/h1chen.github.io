@@ -8,22 +8,23 @@
 -->
 <template>
   <div class="base">
-    <h2>张和潮</h2>
+    <h2>陈惠临</h2>
 
     <p class="base__info">
       <span>男</span>
-      <span>广东普宁</span>
+      <span>广东阳江</span>
       <span>本科</span>
       <span>韶关学院</span>
       <span>电子信息科学与技术</span>
     </p>
 
+<!--
     <p class="base__desc">“主要从事 B 端后台管理系统以及 Electron 客户端开发。个人技术栈主要以 Vue 为主，平时喜欢钻研 Vue 源码以及最新的前端技术，热衷于在 github 里学习热门的开源项目。”</p>
-
+-->
     <div class="base__work">
       <div class="base__work-text">
         <strong>求职意愿</strong>：
-        <span>前端开发</span>
+        <span>Java后端开发</span>
       </div>
 
       <div>
