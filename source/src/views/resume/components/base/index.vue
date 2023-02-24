@@ -8,7 +8,7 @@
 -->
 <template>
   <div class="base">
-    <h2>陈惠临</h2>
+    <h2>陈惠临1</h2>
 
     <p class="base__info">
       <span>男</span>
